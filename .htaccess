@@ -1,0 +1,16 @@
+#ErrorDocument 400 /erreur.php?erreur=400
+#ErrorDocument 401 /erreur.php?erreur=401
+#ErrorDocument 402 /erreur.php?erreur=402
+#ErrorDocument 403 /erreur.php?erreur=403
+#ErrorDocument 404 /erreur.php?erreur=404
+#ErrorDocument 405 /erreur.php?erreur=405
+#ErrorDocument 500 /erreur.php?erreur=500
+#ErrorDocument 501 /erreur.php?erreur=501
+#ErrorDocument 502 /erreur.php?erreur=502
+#ErrorDocument 503 /erreur.php?erreur=503
+#ErrorDocument 504 /erreur.php?erreur=504
+#ErrorDocument 505 /erreur.php?erreur=505
+
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^(.*)\.php$ index.php?file=$1 [QSA]

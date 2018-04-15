@@ -1,0 +1,123 @@
+body
+{
+	font-size: 100%;
+}
+
+header
+{
+	background-color: #0D5EAF;
+	color: #ecf0f1;
+	margin-bottom: 5px;
+	height: 80px;
+}
+a, a:hover
+{
+	text-decoration: none;
+}
+header img
+{
+	float: left;
+}
+header h1
+{
+	margin: 0;
+	text-align: center;
+	padding: 20px;
+	color: #ecf0f1;
+}
+
+main
+{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+footer
+{
+	background-color: #0D5EAF;
+	color: #ecf0f1;
+	margin-top: 25px;
+	height: 80px;
+	clear: both;
+}
+
+table{
+	font-size: 1.2em;
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 25px;
+	box-shadow: 0px 0px 0px #eaeaea;
+	transition: all 0.5s;
+	background-color: #FDFDFD;
+}
+
+table:hover
+{
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 18px #eaeaea;
+	transition: box-shadow 0s;
+}
+
+table, th, td{
+	border: 1px solid gray;
+	padding: 5px;
+	text-align: center;
+}
+
+/* animations */
+.anim-hover-vibrate
+{
+	display: inline-block;
+	animation: endvibrate 0.2s linear 1;
+}
+.anim-hover-vibrate:hover
+{
+	display: inline-block;
+	animation: vibrate 0.2s linear 1;
+}
+@keyframes vibrate
+{
+	10% {transform: rotate(7deg);}
+	20% {transform: rotate(-7deg);}
+	40% {transform: rotate(5deg);}
+	50% {transform: rotate(-5deg);}
+	60% {transform: rotate(3deg);}
+	70% {transform: rotate(-3deg);}
+	80% {transform: rotate(1deg);}
+	90% {transform: rotate(-1deg);}
+}
+@keyframes endvibrate
+{
+	10% {transform: rotate(7deg);}
+	20% {transform: rotate(-7deg);}
+	40% {transform: rotate(5deg);}
+	50% {transform: rotate(-5deg);}
+	60% {transform: rotate(3deg);}
+	70% {transform: rotate(-3deg);}
+	80% {transform: rotate(1deg);}
+	90% {transform: rotate(-1deg);}
+}
+
+
+.anim-hover-rotate
+{
+	width: 80px;
+	transform: rotate(0deg);
+	transition: all 0.3s;
+}
+
+.anim-hover-rotate:hover
+{
+	animation: rotate 0.3s linear 1;
+}
+@keyframes rotate 
+{
+	100%{transform: rotate(360deg);}
+}
+
+.suffix-eic
+{
+	width: 50%;
+	border: 1px dashed green;
+	padding: 2px;
+}

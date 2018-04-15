@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Έλα μαλάκα, που εισαι;</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #DDDDDD;
+			font-family: "sans-serif";
+			position: static;
+			font-size: xx-large;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+		}
+		a:hover{
+			color: green;
+		}
+		h1{
+			text-align: center;
+		}
+
+		@keyframes blink{
+			50% {color: red; text-shadow: 0px 0px 30px white; }
+			80% {color: black; text-shadow: 0px 0px 30px blue; }
+			100% {color: red; text-shadow: 0px 0px 30px white; }
+		}
+
+		#error p{
+			font-size: larger;
+			margin-top: 20vh;
+			padding: 60px;
+			text-align: center;
+			color: red;
+			text-shadow: 0px 0px 30px white;
+			box-shadow: 0px 0px 100px black;
+			background-color: black;
+			animation-name: blink;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+		}
+
+		#error{
+			display: none;
+		}
+
+		#success{
+			background-color: black;
+			width: 100vw;
+			max-width: 100%;
+			min-height: 100vh;
+			color: white;
+		}
+
+		i{
+			text-shadow: 0px 0px 10px white;
+		}
+
+		p{
+			padding: 30px;
+			font-size: larger;
+			text-align: justify;
+		}
+		.main{
+			color: green;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="error">
+		<h1>bluelight</h1>
+		<p>
+			You're browser isn't compatible, get <a href='https://play.google.com/store/apps/details?id=org.mozilla.firefox_beta&hl=en'>firefox for android (beta version)</a> to use the <i>bluelight</i>
+		</p>
+	</div>
+	<div id="success">
+		<div id="debug"></div>
+		<h1>Color adaptation depending on the ambiant light</h1>
+		<p class="main">
+			It's more confortable to read with an adapted background depending on the ambiant light. When the sun hit on the screen, it's we need more light from the screen in order to better get the contrasts between the letters and the background. On the contrary, when you read in the dark, you'd like not to be dazzled and need a soft contrast for the pleasure of your eyes.
+		</p>
+		<p class="main">
+			So, this shit does it in real time, and to let you enjoy, I gonna put lot of latin text which may contain the ultimate solution to solve Israel and Palestinian conflict but nobody read it because we only use it as a template presentation : 
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum suscipit justo, maximus tincidunt elit tincidunt ut. Vivamus faucibus mauris eget elementum ornare. Etiam felis lorem, venenatis elementum justo et, finibus feugiat nulla. Mauris varius nisl est, id varius justo mollis vel. Sed et mollis nisl, at sollicitudin ipsum. Curabitur mollis blandit felis, sed gravida mi faucibus in. Sed commodo neque id massa euismod tristique. Nulla facilisi. Sed at varius eros. Aenean a pellentesque metus. In hac habitasse platea dictumst. Curabitur pretium posuere urna sit amet malesuada. Aenean ullamcorper congue est, a mollis justo malesuada et.
+		</p>
+		<p>
+			Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam quis viverra libero. Integer nulla quam, dignissim a consectetur vitae, tristique sed sem. Praesent nec ante ipsum. Fusce ornare ultricies libero at tincidunt. Nulla a augue in ligula consectetur porta in in ipsum. Vestibulum odio turpis, porta non luctus vitae, maximus id nibh. Phasellus in ex eget purus iaculis cursus vitae sit amet arcu. Praesent tempus posuere malesuada. Integer ultricies, neque laoreet pellentesque feugiat, turpis ligula ullamcorper neque, quis pulvinar dui augue posuere mi. Aenean at tempus libero. Morbi vitae felis quis elit luctus viverra consectetur scelerisque ex. Sed quis magna vel orci pulvinar fermentum.
+		</p>
+		<p>
+			Nulla tempus, magna sit amet commodo cursus, lorem turpis pretium urna, pharetra efficitur quam nunc eu mi. Maecenas ac est nibh. Etiam in lobortis urna. Maecenas at risus est. Sed placerat dapibus neque non mollis. Proin imperdiet ex mattis bibendum gravida. Donec mattis imperdiet blandit. Donec auctor quam commodo ipsum dictum, ac pellentesque lorem malesuada. Sed nec pretium mauris, at accumsan sapien. Nulla consectetur elit tellus, vel feugiat massa auctor imperdiet. Phasellus facilisis risus malesuada enim facilisis porttitor. Sed sollicitudin pulvinar purus, eget pulvinar magna tempor ut. Sed auctor vulputate sodales.
+		</p>
+		<p>
+			Pellentesque ornare consectetur libero. Integer commodo vulputate dapibus. Sed tellus nisl, viverra non eros in, consequat pharetra augue. Integer porta vehicula metus, at eleifend tellus ullamcorper id. Praesent feugiat varius mollis. Pellentesque maximus turpis at libero egestas, eu vulputate eros consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat orci, blandit fermentum blandit non, posuere a dolor. Aenean mattis nunc orci, eget elementum augue rutrum vitae. Suspendisse interdum, massa tincidunt vestibulum sollicitudin, mi odio luctus dui, id luctus nisl massa quis tellus.
+		</p>
+		<p>
+			Vestibulum scelerisque enim eu metus euismod vehicula. Mauris scelerisque dui at nulla viverra, eu sodales velit luctus. Donec facilisis nisi ut mauris ultricies, et euismod neque sodales. Fusce ac magna ut enim efficitur volutpat. Integer euismod, eros ut sagittis bibendum, nibh erat ornare lectus, id vestibulum mauris est et nisl. Aliquam sed lorem eget odio lobortis consectetur. Praesent ut dolor sit amet arcu ullamcorper volutpat. Aenean vehicula sem id euismod faucibus. Sed at pretium tellus. Sed malesuada arcu sed semper maximus.
+		</p>
+	</div>
+</body>
+<script type="text/javascript">
+let sensorTest = false;
+
+setTimeout(function(){
+	if(!sensorTest)
+		promptError();
+}, 200);
+
+function promptError(){
+	document.getElementById('success').style.display = 'none';
+	document.querySelector('#error').style.display = 'block';
+}
+
+window.onload = function(){
+	window.addEventListener('devicelight', function(event) {
+		sensorTest = true;
+		let hexnum = event.value.toString(16);
+		document.getElementById('debug').textContent = hexnum;
+	    document.getElementById('success').style.backgroundColor = "#"+hexnum+"00"+hexnum;
+	});
+}
+</script>
+</html>

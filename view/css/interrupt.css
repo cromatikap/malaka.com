@@ -1,0 +1,23 @@
+#error li {
+	display: none;
+}
+
+#success {
+	display: none;
+}
+
+.wrong {
+	border-left: 4px solid red !important;
+	border-bottom: 1px solid red !important;
+	border-right: 1px solid red !important;
+	border-top: 1px solid red !important;
+}
+
+.hide {
+	display: none;
+}
+
+.unvisible
+{
+	visibility: hidden;
+}
